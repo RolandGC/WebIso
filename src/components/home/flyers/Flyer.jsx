@@ -4,25 +4,25 @@ function Flyer() {
     const post = [
         {
             id: 1,
-            title: 'Búsqueda de una propiedad',
-            descript: '¿Quieres comprar/alquilar una propiedad?',
-            button: 'Solicita Búsqueda',
+            title: 'ISO 9001:2015.',
+            descript: 'Sistema de Gestión basada en la norma ',
+            button: 'Conocer más',
             imageSrc: '/public/img/dep3.jpeg',
             imageAlt: '',
         },
         {
             id: 2,
-            title: 'Sugerencia de la IA',
-            descript: '¿Deseas alguna sugerencia?',
-            button: 'Solicita sugerencia',
+            title: 'ISO 45001:2018.',
+            descript: 'Sistema de Gestión basada en la norma ',
+            button: 'Conocer más',
             imageSrc: '/public/img/dep4.jpeg',
             imageAlt: '',
         },
         {
             id: 3,
-            title: 'Análisis de tu propiedad',
-            descript: '¿Quieres vender tu propiedad?',
-            button: 'Solicita ACM',
+            title: 'ISO 37001:2016.',
+            descript: 'Sistema de Gestión basada en la norma ',
+            button: 'Conocer más',
             imageSrc: '/public/img/dep6.jpeg',
             imageAlt: '',
         },
@@ -32,7 +32,7 @@ function Flyer() {
             {post.map((post) => (
                 <div className="lg:w-1/2 sm:w-full w-full max-w-full bg-cover bg-center overflow-hidden lg:h-80 inset-0 transform scale-100 hover:scale-105 transition-transform duration-500 ease-in-out bg-black bg-opacity-35" style={{ backgroundImage: `url(${post.imageSrc})` }}>
                     <div className='bg-black bg-opacity-35 w-full h-80 sm:h-80 flex-1 text-center'>
-                        <h2 className='text-white text-[35px] font-bebas tracking-wide pt-10'>{post.title}</h2>
+                        <h2 className='text-white text-[35px] font-ubuntu  pt-10'>{post.title}</h2>
                         <p className='text-white font-urbanist mb-8'>{post.descript}</p>
                         <button className='bg-green-500 hover:bg-white p-3 text-white hover:text-green-500 font-urbanist transition-colors duration-300'>
                             {post.button}

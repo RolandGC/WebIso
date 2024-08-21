@@ -35,6 +35,7 @@ import { Dashboard } from './pages/pagesAdmin/Dashboard'
 
 // layout de rutas protejidas
 import ProtectedRoutes from './components/protected/ProtectedRoutes'
+import Us from './pages/pagesWeb/Us'
 
 
 const router = createBrowserRouter(
@@ -49,8 +50,8 @@ const router = createBrowserRouter(
           path: '/'
         },
         {
-          element: <SearchProp />,
-          path: '/buscar'
+          element: <Us />,
+          path: '/nosotros'
         },
         {
           element: <Advisors />,
@@ -113,14 +114,14 @@ const router = createBrowserRouter(
     },
     {
       path: '/usuario',
-      element: <ProtectedRoutes role={2}><LayoutUser/></ProtectedRoutes>,
+      element: <ProtectedRoutes role={2}><LayoutUser /></ProtectedRoutes>,
       children: [
         {
           element: <UserAccount />,
           path: 'cuenta',
           index: true,
         },
-        { 
+        {
           element: <Post />,
           path: 'publicar'
         },

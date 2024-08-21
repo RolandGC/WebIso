@@ -16,7 +16,7 @@ export default {
                 green1: '#1B7895',
                 blue2: '#174966',
                 blue3: '#24BFCF',
-                green1: '#5FB776',
+                purple1: '#2c3793',
             },
             spacing: {
                 '200': '50rem',
@@ -25,6 +25,7 @@ export default {
                 '100': '25rem',
             },
             fontFamily: {
+                ubuntu: ['Ubuntu'],
                 josefin: ['Josefin Sans'],
                 cambay: ['Cambay'],
                 merriweather: ['Merriweather'],

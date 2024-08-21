@@ -13,7 +13,7 @@ import ItemSellOk from '../../components/items/ItemSellOk';
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import bg from '/video/video1.mp4'
+import bg from '/video/video02.mp4'
 import Flyer from '../../components/home/flyers/Flyer';
 import PrestenText1 from '../../components/home/PrestenText';
 import Loading from '../../components/compGeneral/Loading';
@@ -156,62 +156,29 @@ const Home = () => {
                 />
 
                 <div className="relative z-10 items-center justify-center p-2 md:p-4 h-160 w-full  bg-black bg-opacity-35">
-                    <h3 className="text-[40px] font-bold  text-white  text-center p-4 pb-3 font-bebas tracking-wide "><PrestenText1 /></h3>
+                    <h3 className="text-[40px] font-bold  text-white  text-center p-4 pb-3 font-ubuntu  "><PrestenText1 /></h3>
                     <div className="m-14">
                         <div className="flex items-center justify-center text-white sm:w-full">
                             <form action="" className="flex">
-                                <div className="font-normal flex items-center justify-center gap-x-2 bg-white font-bebas tracking-wide rounded-sm">
-                                    {/* <button className=" hover:bg-green-500 hover:text-white text-gray-600 border border-gray-200 py-3 px-5 md:w-auto">
+                                <div className="font-normal flex items-center justify-center gap-x-2 bg-white font-ubuntu  rounded-sm">
+                                    {/* <button className=" hover:bg-purple1 hover:text-white text-gray-600 border border-gray-200 py-3 px-5 md:w-auto">
                                         Alquilar
                                     </button>
-                                    <button className=" hover:bg-green-500 hover:text-white text-gray-600 border border-gray-200 py-3 px-5 md:w-auto">
+                                    <button className=" hover:bg-purple1 hover:text-white text-gray-600 border border-gray-200 py-3 px-5 md:w-auto">
                                         Comprar
                                     </button>
-                                    <button className=" hover:bg-green-500 hover:text-white text-gray-600 border border-gray-200 py-3 px-5 md:w-auto">
+                                    <button className=" hover:bg-purple1 hover:text-white text-gray-600 border border-gray-200 py-3 px-5 md:w-auto">
                                         Proyectos
                                     </button> */}
-                                    <Selector radius="sm" className='border font-bebas tracking-wide ' color='green' >
+                                    {/* <Selector radius="sm" className='border font-ubuntu  ' color='green' >
                                         <Selector.Tab anchor="venta" label="VENTA" />
                                         <Selector.Tab anchor="alquiler" label="ALQUILER" />
                                         <Selector.Tab anchor="compra" label="COMPRA" />
-                                    </Selector>
+                                    </Selector> */}
                                 </div>
                             </form>
                         </div>
-                        <div className='flex flex-col md:flex-row bg-white rounded-sm'>
-                            <div className='p-4 w-full sm:w-full md:w-1/3'>
-                                <select
-                                    id="country"
-                                    name="country"
-                                    autoComplete="country-name"
-                                    className="inline-flex w-full justify-center border border-gray-300 shadow-sm px-4 py-2 bg-white text-[16px] font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-offset-2 focus:ring-offset-gray-100 font-urbanist"
-                                >
-                                    <option>Departamento</option>
-                                    <option>Casa</option>
-                                    <option>Terreno/Lote</option>
-                                    <option>Habitación</option>
-                                    <option>Hotel</option>
-                                    <option>Cochera</option>
-                                    <option>Local industrial</option>
-                                    <option>Local comercial</option>
-                                    <option>Oficina</option>
-                                    <option>Todos</option>
-                                </select>
-                            </div>
-                            <div className='container mx-auto p-4 font-urbanist'>
-                                <input aria-haspopup="true"
-                                    aria-expanded="true"
-                                    type="text" placeholder="Ingresa ubicaciones o características" className="inline-flex justify-center w-full border border-gray-200 shadow-sm px-2 py-3 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-offset-2 focus:ring-offset-gray-100" />
-                            </div>
-                            <div className="flex justify-center items-center p-4 space-x-4 font-urbanist">
-                                <button
-                                    type="button"
-                                    className="px-5 py-3 bg-green-500 text-white hover:bg-gray-500 focus:outline-none items-center flex text-mx rounded-sm"
-                                >
-                                    <FaSearch className='flex mr-1  selection: ' /> Buscar
-                                </button>
-                            </div>
-                        </div>
+
                     </div>
 
                     <div className='m-8 flex-1'>
@@ -225,6 +192,41 @@ const Home = () => {
                     <br />
                 </div>
             </div>
+
+            {/* <div className='flex flex-col md:flex-row bg-white rounded-sm'>
+                <div className='p-4 w-full sm:w-full md:w-1/3'>
+                    <select
+                        id="country"
+                        name="country"
+                        autoComplete="country-name"
+                        className="inline-flex w-full justify-center border border-gray-300 shadow-sm px-4 py-2 bg-white text-[16px] font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-offset-2 focus:ring-offset-gray-100 font-urbanist"
+                    >
+                        <option>Seleccione país</option>
+                        <option>Perú</option>
+                        <option>Chile</option>
+                        <option>México</option>
+                        <option>Venezuela</option>
+                        <option>Colombia</option>
+                        <option>Ecuador</option>
+                        <option>Argentina</option>
+                        <option>Brasil</option>
+                        <option>Uruguay</option>
+                    </select>
+                </div>
+                <div className='container mx-auto p-4 font-urbanist'>
+                    <input aria-haspopup="true"
+                        aria-expanded="true"
+                        type="text" placeholder="Ingresa el número" className="inline-flex justify-center w-full border border-gray-200 shadow-sm px-2 py-3 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-offset-2 focus:ring-offset-gray-100" />
+                </div>
+                <div className="flex justify-center items-center p-4 space-x-4 font-urbanist">
+                    <button
+                        type="button"
+                        className="px-5 py-3 bg-purple1 text-white hover:bg-gray-500 focus:outline-none items-center flex text-mx rounded-sm"
+                    >
+                        <FaSearch className='flex mr-1  selection: ' /> Buscar
+                    </button>
+                </div>
+            </div> */}
 
             <div>
                 <div className='mt-10'>
@@ -247,8 +249,8 @@ const Home = () => {
             <div className='my-20'>
                 <Cards1 />
                 <br className='m-4' />
-                <div className='p-8 slider-container '>
-                    <h2 className="text-[45px] font-bold  text-gray-700 text-center p-4 font-bebas tracking-wide">Inmuebles similares a los que viste</h2>
+                {/* <div className='p-8 slider-container '>
+                    <h2 className="text-[45px] font-bold  text-gray-700 text-center p-4 font-ubuntu ">Inmuebles similares a los que viste</h2>
                     <Slider {...settings}>
                         <div>
                             <h1> <ItemSellOk /></h1>
@@ -266,20 +268,20 @@ const Home = () => {
                             <h5><ItemSellOk /></h5>
                         </div>
                     </Slider>
-                </div>
+                </div> */}
 
                 <div className='m-4'>
                     <div className=" pt-8">
-                        <h4 className="text-[45px] font-bold  text-gray-700 text-center p-4 font-bebas tracking-wide">Integrado con inteligencia artificial</h4>
+                        <h4 className="text-[45px] font-bold  text-gray-700 text-center p-4 font-ubuntu ">Integrado con inteligencia artificial</h4>
                     </div>
                     <div className="mx-auto max-w-7xl  px-6 lg:px-8 m-3">
                         <ul role="list" className="grid gap-8 md:gap-6  md:grid-cols-3 lg:gap-8 border-gray-300">
                             <li className='max-w-[450px] mx-auto md:w-auto'>
                                 <div className="flex p-5 md:p-4 md:pr-1 lg:p-5 items-center gap-x-1 border border-gray-400 bg-white shadow-md">
                                     <div >
-                                        <p className="text-sm leading-6 text-gray-700 font-bebas tracking-wide">Navega por nuestra página web inteligente, donde la IA anticipa tus necesidades.</p>
+                                        <p className="text-sm leading-6 text-gray-700 font-ubuntu ">Navega por nuestra página web inteligente, donde la IA anticipa tus necesidades.</p>
                                     </div>
-                                    <a href="/ia/inicioia" className='rounded-full px-3 py-[13px] bg-green-500'>
+                                    <a href="/ia/inicioia" className='rounded-full px-3 py-[13px] bg-purple1'>
                                         <FaArrowRight className='h-10 w-10 md:h-8 md:w-8 lg:h-10 lg:w-10 rounded-full m-3' />
                                     </a>
                                 </div>
@@ -287,9 +289,9 @@ const Home = () => {
                             <li className='max-w-[450px] mx-auto md:w-auto'>
                                 <div className="flex p-5 md:p-4 md:pr-1 lg:p-5 items-center gap-x-1 border border-gray-400 bg-white shadow-md">
                                     <div >
-                                        <p className="text-sm font-semibold leading-6 text-gray-700 font-bebas tracking-wide">Experimenta la diferencia con nuestra página web, potenciada por inteligencia artificial.</p>
+                                        <p className="text-sm font-semibold leading-6 text-gray-700 font-ubuntu ">Experimenta la diferencia con nuestra página web, potenciada por inteligencia artificial.</p>
                                     </div>
-                                    <a href="/ia/inicioia" className='rounded-full px-3 py-[13px] bg-green-500'>
+                                    <a href="/ia/inicioia" className='rounded-full px-3 py-[13px] bg-purple1'>
                                         <FaArrowRight className=' h-10 w-10 md:h-8 md:w-8 lg:h-10 lg:w-10 rounded-full m-3' />
                                     </a>
                                 </div>
@@ -297,9 +299,9 @@ const Home = () => {
                             <li className='max-w-[450px] mx-auto md:w-auto'>
                                 <div className="flex p-5 md:p-4 md:pr-1 lg:p-5 items-center gap-x-1 border border-gray-400 bg-white shadow-md">
                                     <div >
-                                        <p className="text-sm font-semibold leading-6 text-gray-700 font-bebas tracking-wide">Explora un nuevo nivel de interactividad con nuestra página web impulsada por IA.</p>
+                                        <p className="text-sm font-semibold leading-6 text-gray-700 font-ubuntu ">Explora un nuevo nivel de interactividad con nuestra página web impulsada por IA.</p>
                                     </div>
-                                    <a href="/ia/inicioia" className='rounded-full px-3 py-[13px] bg-green-500'>
+                                    <a href="/ia/inicioia" className='rounded-full px-3 py-[13px] bg-purple1'>
                                         <FaArrowRight className='h-10 w-10 md:h-8 md:w-8 lg:h-10 lg:w-10 rounded-full m-3' />
                                     </a>
                                 </div>
@@ -310,31 +312,31 @@ const Home = () => {
             </div>
             <br className='' />
             <div>
-                <h2 className="text-[45px] font-bold  text-gray-700 text-center p-4 font-bebas tracking-wide">Más inmuebles similares a los que viste</h2>
+                <h2 className="text-[45px] font-bold  text-gray-700 text-center p-4 font-ubuntu ">Las ISO disponibles</h2>
                 <ItemSell />
             </div>
             <div>
                 <div className="my-5">
-                    <h4 className="text-[45px] font-bold  text-gray-700 text-center font-bebas tracking-wide">Te acompañamos en cada paso.</h4>
+                    <h4 className="text-[45px] font-bold  text-gray-700 text-center font-ubuntu ">Te acompañamos en cada paso.</h4>
                 </div>
                 <br />
                 <Cards2 className='my-' />
             </div>
-            <div>
+            {/* <div>
                 <div className="">
                     <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-                        <h2 className="text-[45px] font-bold  text-gray-700 text-center p-4 font-bebas tracking-wide">Más propiedades</h2>
+                        <h2 className="text-[45px] font-bold  text-gray-700 text-center p-4 font-ubuntu ">Más propiedades</h2>
                         <div className='justify-end border-gray-500'>
                             <div className=" inset-0 flex items-center justify-end text-white ">
                                 <form action="" className="flex">
                                     <div className="font-urbanist flex items-center justify-center rounded-t bg-white m-2">
-                                        <button className=" border border-gray-600 hover:bg-green-500 hover:text-white text-gray-600  py-2 px-4 ">
+                                        <button className=" border border-gray-600 hover:bg-purple1 hover:text-white text-gray-600  py-2 px-4 ">
                                             En construcción
                                         </button>
-                                        <button className="border border-gray-600 hover:bg-green-500 hover:text-white text-gray-600  py-2 px-4  ml-2">
+                                        <button className="border border-gray-600 hover:bg-purple1 hover:text-white text-gray-600  py-2 px-4  ml-2">
                                             En planos
                                         </button>
-                                        <button className="border border-gray-600 hover:bg-green-500 hover:text-white text-gray-600 py-2 px-4 ml-2">
+                                        <button className="border border-gray-600 hover:bg-purple1 hover:text-white text-gray-600 py-2 px-4 ml-2">
                                             Entrega inmediata
                                         </button>
                                     </div>
@@ -343,7 +345,7 @@ const Home = () => {
                         </div>
                         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
                             <div className="max-w-2xl ">
-                                <h4 className="text-sm font-bold  text-gray-900 sm:text-2xl text-center font-bebas tracking-wide">¿Conoces nuestras opciones de desarrollos?</h4>
+                                <h4 className="text-sm font-bold  text-gray-900 sm:text-2xl text-center font-ubuntu ">¿Conoces nuestras opciones de desarrollos?</h4>
                                 <p className='font-urbanist'>Puedes verlos según la etapa de construcción que más se ajusta a tu búsqueda.</p>
                             </div>
                             {products.map((product) => (
@@ -357,8 +359,7 @@ const Home = () => {
                                                     className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                                                 />
                                                 <FaRegHeart className="bg-white absolute top-5 right-2 py-1 px-3 rounded-full text-black text-[40px]" />
-                                                {/* <span className="bg-[#DC3545] absolute top-5 right-2 py-1 px-3 rounded-full text-white text-[10px]" >ID: {product.id}</span>
-                                            <span className="bg-blue-800 absolute text-end bottom-36 right-2 py-1 px-3 rounded-full text-white text-[10px]" >{product.type}</span> */}
+
                                             </div>
                                         </a>
                                     </div>
@@ -382,10 +383,10 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className='flex justify-center items-center p-4'>
-                <h5 className='mr-1 text-xl text-gray-600 font-bebas tracking-wide'>Busca entre más de 17,976 Propiedades</h5>
-                <button className='bg-green-500 p-3 text-white text-sm'>
+                <h5 className='mr-1 text-xl text-gray-600 font-ubuntu '>Busca entre más de 17,976 Propiedades</h5>
+                <button className='bg-purple1 p-3 text-white text-sm'>
                     <a href="/buscar">VER MÁS</a>
                 </button>
             </div>

@@ -54,7 +54,7 @@ function SignIn() {
                             src="/public/img/logo.png"
                             alt="my Company"
                         />
-                        <h2 className="mt-6 mb-5 text-center text-2xl font-bold leading-9  text-black font-bebas tracking-wide">
+                        <h2 className="mt-6 mb-5 text-center text-2xl font-bold leading-9  text-black font-ubuntu ">
                             Nuevo registro
                         </h2>
                     </div>

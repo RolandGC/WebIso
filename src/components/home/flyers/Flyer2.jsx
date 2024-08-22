@@ -4,18 +4,18 @@ function Flyer2() {
     const post = [
         {
             id: 1,
-            title: 'Búsqueda de una propiedad',
-            descript: '¿Quieres comprar/alquilar una propiedad?',
-            button: 'Solicita Búsqueda',
-            imageSrc: '/public/img/dep3.jpeg',
+            title: 'Sistemas de Gestiones',
+            descript: '¿Deseas tener una gestión eficiente?',
+            button: 'ISO',
+            imageSrc: '/public/img/1.webp',
             imageAlt: '',
         },
         {
             id: 2,
-            title: 'Inteligencia Artificial',
-            descript: '¿Cómo usar la IA en este rubro?',
-            button: 'Con Chat-GPT',
-            imageSrc: '/public/img/dep4.jpeg',
+            title: 'Realidad virtual',
+            descript: '¿Cómo usar la Realidad virtual en tu rubro?',
+            button: 'Con IA',
+            imageSrc: '/public/img/6.jpeg',
             imageAlt: '',
         },
     ]

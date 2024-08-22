@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import Home from './pages/pagesWeb/Home'
 import LayoutMain from './components/layouts/LayoutMain'
 import SearchProp from './pages/pagesWeb/SearchProp'
-import Advisors from './pages/pagesWeb/Advisors'
+import Blog from './pages/pagesWeb/Blog'
 import Contact from './pages/pagesWeb/Contact'
 import DetailProps from './components/properties/DetailProps'
 import LogIn from './pages/auth/LogIn'
@@ -54,8 +54,8 @@ const router = createBrowserRouter(
           path: '/nosotros'
         },
         {
-          element: <Advisors />,
-          path: '/asesores'
+          element: <Blog />,
+          path: '/blog'
         },
         {
           element: <IA />,

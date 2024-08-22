@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 
 function PrestenText() {
     const textArray = [
-        'Investigación de mercado',
-        'Consultoría inmobiliaria',
-        'La magia de la IA en nuestro sitio',
-        'PLANEACION COMERCIAL',
+        'Sistemas de Gestión',
+        'Realidad Virtual',
+        'monitoreo con Drones',
+        'Cámaras de seguridad',
     ];
     const [currentTextIndex, setCurrentTextIndex] = useState(0);
     const [isAnimating, setIsAnimating] = useState(false);

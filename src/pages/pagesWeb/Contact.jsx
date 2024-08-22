@@ -44,7 +44,7 @@ function Contact() {
                             </p>
                             <div className="mt-2 grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-6"> {/* Adjusted gap-y */}
                                 <div className="sm:col-span-3">
-                                    <label htmlFor="nombres" className="block text-sm font-bold leading-6 text-green-500">
+                                    <label htmlFor="nombres" className="block text-sm font-bold leading-6 text-blue-900">
                                         Nombres
                                     </label>
                                     <div className="mt-1"> {/* Reduced margin-top */}
@@ -62,7 +62,7 @@ function Contact() {
                                 </div>
 
                                 <div className="sm:col-span-3">
-                                    <label htmlFor="apellidos" className="block text-sm font-bold leading-6 text-green-500">
+                                    <label htmlFor="apellidos" className="block text-sm font-bold leading-6 text-blue-900">
                                         Apellidos
                                     </label>
                                     <div className="mt-1"> {/* Reduced margin-top */}
@@ -80,7 +80,7 @@ function Contact() {
                                 </div>
 
                                 <div className="sm:col-span-3">
-                                    <label htmlFor="email" className="block text-sm font-bold leading-6 text-green-500">
+                                    <label htmlFor="email" className="block text-sm font-bold leading-6 text-blue-900">
                                         Email
                                     </label>
                                     <div className="mt-1"> {/* Reduced margin-top */}
@@ -104,7 +104,7 @@ function Contact() {
                                 </div>
 
                                 <div className="sm:col-span-3">
-                                    <label htmlFor="celular" className="block text-sm font-bold leading-6 text-green-500">
+                                    <label htmlFor="celular" className="block text-sm font-bold leading-6 text-blue-900">
                                         Teléfono
                                     </label>
                                     <div className="mt-1"> {/* Reduced margin-top */}
@@ -137,7 +137,7 @@ function Contact() {
 
 
                                 <div className="sm:col-span-3">
-                                    <label htmlFor="tipo_solicitud" className="block w-full text-sm font-bold leading-6 text-green-500">
+                                    <label htmlFor="tipo_solicitud" className="block w-full text-sm font-bold leading-6 text-blue-900">
                                         Tipo de solicitud
                                     </label>
                                     <div className="mt-1"> {/* Reduced margin-top */}
@@ -160,7 +160,7 @@ function Contact() {
 
 
                                 <div className="sm:col-span-3">
-                                    <label htmlFor="ciudad" className="block text-sm font-bold leading-6 text-green-500">
+                                    <label htmlFor="ciudad" className="block text-sm font-bold leading-6 text-blue-900">
                                         Ciudad
                                     </label>
                                     <div className="mt-1"> {/* Reduced margin-top */}
@@ -178,7 +178,7 @@ function Contact() {
                                 </div>
 
                                 <div className="sm:col-span-3">
-                                    <label htmlFor="provincia" className="block text-sm font-bold leading-6 text-green-500">
+                                    <label htmlFor="provincia" className="block text-sm font-bold leading-6 text-blue-900">
                                         Provincia
                                     </label>
                                     <div className="mt-1"> {/* Reduced margin-top */}
@@ -196,7 +196,7 @@ function Contact() {
                                 </div>
 
                                 <div className="sm:col-span-3">
-                                    <label htmlFor="codigo_postal" className="block text-sm font-bold leading-6 text-green-500">
+                                    <label htmlFor="codigo_postal" className="block text-sm font-bold leading-6 text-blue-900">
                                         Código Postal
                                     </label>
                                     <div className="mt-1"> {/* Reduced margin-top */}
@@ -213,7 +213,7 @@ function Contact() {
                                     </div>
                                 </div>
                                 <div className="col-span-full">
-                                    <label htmlFor="mensaje" className="block text-sm font-bold leading-6 text-green-500">
+                                    <label htmlFor="mensaje" className="block text-sm font-bold leading-6 text-blue-900">
                                         Mensaje
                                     </label>
                                     <div className="mt-1"> {/* Reduced margin-top */}
@@ -233,13 +233,13 @@ function Contact() {
                         </div>
 
                         <div className="border-b border-gray-900/10 pb-1 pt-1"> {/* Reduced padding-bottom */}
-                            <h2 className="text-base font-semibold leading-7 text-green-500">Notificaciones</h2>
+                            <h2 className="text-base font-semibold leading-7 text-blue-900">Notificaciones</h2>
                             <div className='flex'>
                                 <div className='flex items-center mt-1'> {/* Reduced margin-top */}
                                     <input
                                         type="checkbox"
                                         name='terminos'
-                                        className='form-checkbox h-4 w-4 text-green-500 rounded-full mr-2'
+                                        className='form-checkbox h-4 w-4 text-blue-900 rounded-full mr-2'
                                     />
                                     <span className='text-sm leading-6 text-gray-600'>
                                         Siempre te informaremos sobre cambios importantes, pero tú eliges qué más quieres escuchar.
@@ -252,7 +252,7 @@ function Contact() {
                     <div className="mt-6 flex items-center justify-center gap-x-6">
                         <button
                             type="submit"
-                            className="rounded-md bg-green-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500 w-40"
+                            className="rounded-md bg-blue-900 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-900 w-40"
                         >
                             ENVIAR
                         </button>

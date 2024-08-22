@@ -35,8 +35,8 @@ const links = [
         id: 3,
     },
     {
-        link: "/asesores",
-        text: "blog",
+        link: "/blog",
+        text: "Blog",
         id: 4,
     },
     {
@@ -175,7 +175,7 @@ const LayoutMain = () => {
                                 <div className='flex'>
                                     <div className='flex-1 font-josefin '>
                                         <p className='text-gray-700 font-ubuntu  font-bold mb-2'>ISO AND ISO</p>
-                                        <span className='text-gray-400 font-urbanist'>La Inmobiliaria es un nuevo e innovador Portal Inmobiliario donde podrá encontrar el inmueble que necesita.</span>
+                                        <span className='text-gray-400 font-urbanist'> Somos una empresa de integración de tecnología y somos expertos en ayudar a digitalizar sistemas operativos según estándares ISO.</span>
                                     </div>
                                 </div>
                                 <div className='bg-white text-gray-400 text-sm flex-1 font-urbanist'>
@@ -207,8 +207,8 @@ const LayoutMain = () => {
                                             </div>
                                             <div className='flex flex-col text-xs'>
                                                 <h5 className='text-gray-500 whitespace-normal'>EMAILS</h5>
-                                                <a className='text-blue-500' href="info@remax.net.pe">info@remax.net.pe</a>
-                                                <a className='text-blue-500' href="">ventas@remax.net.pe</a>
+                                                <a className='text-blue-500' href="info@remax.net.pe">isoandiso@email.com</a>
+                                                <a className='text-blue-500' href="">iso@com.pe</a>
                                             </div>
                                         </li>
                                     </ul>

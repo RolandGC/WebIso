@@ -8,15 +8,15 @@ import Flyer2 from '../../components/home/flyers/Flyer2';
 
 const images = [
     {
-        original: "/public/video/img1.avif",
-        thumbnail: "/public/video/dep1.jpeg",
+        original: "/public/img/7.webp",
+        thumbnail: "/public/img/5.jpeg",
     },
     {
-        original: "/public/video/img4.avif",
+        original: "/public/img/1.webp",
         thumbnail: "https://picsum.photos/id/1015/250/150/",
     },
     {
-        original: "/public/video/img5.avif",
+        original: "/public/img/12.webp",
         thumbnail: "https://picsum.photos/id/1019/250/150/",
     },
 ];

@@ -3,7 +3,7 @@ import { TbDeviceIpadSearch } from "react-icons/tb"
 import { SlRocket } from "react-icons/sl"
 import { FaHouseUser } from "react-icons/fa"
 import isoImage from '/public/img/iso.webp';
-
+import { GiBullseye } from "react-icons/gi";
 
 const Us = () => {
 
@@ -65,7 +65,7 @@ const Us = () => {
                         <li >
                             <div className="flex items-center gap-x-6 sm:gap-x-2 md:gap-x-6 border border-gray-500 bg-white shadow-lg">
                                 <div className='rounded-full ml-2 px-3 py-[13px] bg-gray-300'>
-                                    <TbDeviceIpadSearch className='text-3xl w-15' />
+                                    <GiBullseye className='text-3xl w-15' />
                                 </div>
                                 <div className=''>
                                     <h3 className="text-center text-3xl font-semibold leading-7  text-gray-900 font-ubuntu my-2"> Misión</h3>
